@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Calculadora</title>
+</head>
+<body>
+<div class="calculadora">
+    <center>
+<div>
+    <label id="pantalla" class="pantalla"></label>
+    <br>
+</div>
+<div class="numeros">
+    <button onclick="">''</button>
+    <button onclick="">''</button>
+    <button onclick="btncuadrado('²')">x²</button>
+    <button onclick="btnreset();">C</button>
+    <br>
+    <button onclick="pulsar('7');">7</button>
+    <button onclick="pulsar('8');">8</button>
+    <button onclick="pulsar('9');">9</button>
+    <button onclick="btndividir('/');">/</button>
+    <br>
+    <button onclick="pulsar('4');">4</button>
+    <button onclick="pulsar('5');">5</button>
+    <button onclick="pulsar('6');">6</button>
+    <button onclick="btnmultiplicar('*');">*</button>
+    <br>
+    <button onclick="pulsar('1');">1</button>
+    <button onclick="pulsar('2');">2</button>
+    <button onclick="pulsar('3');">3</button>
+    <button onclick="btnrestar('-');">-</button>
+    <br>
+    <button onclick="pulsar('.');">.</button>
+    <button onclick="pulsar('0');">0</button>
+    <button onclick="igualar('resultado');">=</button>
+    <button onclick="btnsumar('+');">+</button>
+</div>
+<div>
+    <br>
+    <label id="historial" class="historial">HISTORIAL:</label>
+</div>
+    </center>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
